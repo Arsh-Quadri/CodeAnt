@@ -93,9 +93,9 @@ const Login = () => {
             </h2>
             <div className="mt-5 font-medium flex justify-center items-center bg-[#FAFAFA] border border-[#E9EAEB] rounded-lg w-[90%] ">
               <div
-                className={`w-[50%] left-0 cursor-pointer text-center md:text-lg ${
+                className={`w-[50%] left-0 cursor-pointer text-center md:text-lg py-2.5 ${
                   component == "saas"
-                    ? "py-2.5 rounded-lg bg-[#1570EF] text-white"
+                    ? "rounded-lg bg-[#1570EF] text-white"
                     : ""
                 } `}
                 onClick={() => setcomponent("saas")}
@@ -103,9 +103,9 @@ const Login = () => {
                 SAAS
               </div>
               <div
-                className={`w-[50%] left-0 text-center cursor-pointer md:text-lg ${
+                className={`w-[50%] left-0 text-center cursor-pointer md:text-lg py-2.5  ${
                   component == "selfhosted"
-                    ? "py-2.5 rounded-lg bg-[#1570EF] text-white"
+                    ? "rounded-lg bg-[#1570EF] text-white"
                     : ""
                 }`}
                 onClick={() => setcomponent("selfhosted")}
